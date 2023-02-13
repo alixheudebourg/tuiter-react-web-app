@@ -2,227 +2,288 @@
 <html lang="en">
 
 <head>
-    <!-- p {
-            background-color: blue;
-            color: white;
-        } -->
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="index.css" rel="stylesheet" />
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="wb-all-content wd-text">
+    <div class="row mx-auto">
+        <!-- LEFT SIDE BAR -->
+        <div class="col-12 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
 
-        <!-- search bar section-->
-        <div class="wd-grid-row">
-
-            <!-- Search Bar -->
-            
-            <div class="wd-grid-col-90-perc wd-medium-gray-text wd-search-bar-wrap">
-                <img class="wd-12-padding" width="16px" src="http://www.clker.com/cliparts/n/U/H/1/H/u/search-icon-white-one-hi.png">
-                Search Twitter
-            </div>
-
-            <!-- Setting Gear Icon link-->
-            
-            <div class="">
-                <a class= "wd-12-pix-padding" href="explore-settings.html">
-                    <img width="16px"src="http://www.clker.com/cliparts/Z/q/J/9/Q/w/grey-gear-hi.png">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                    <i class="fab fa-twitter"></i>
                 </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="hstack gap-2">
+                        <i class="fa fa-home"></i>
+                        <span class="d-none d-xl-block">Home</span>
+                    </div>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action active">
+                    <div class="hstack gap-2">
+                        <i class="fa fa-hashtag"></i>
+                        <span class="d-none d-xl-block">Explore</span>
+                    </div>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="hstack gap-2">
+                        <i class="fa fa-bell"></i>
+                        <span class="d-none d-xl-block">Notifications</span>
+                    </div>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="hstack gap-2">
+                        <i class="fa fa-envelope"></i>
+                        <span class="d-none d-xl-block">Messages</span>
+                    </div>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="hstack gap-2">
+                        <i class="fa fa-bookmark"></i>
+                        <span class="d-none d-xl-block">Bookmarks</span>
+                    </div>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="hstack gap-2">
+                        <i class="fa fa-list"></i>
+                        <span class="d-none d-xl-block">Lists</span>
+                    </div>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="hstack gap-2">
+                        <i class="fa fa-user"></i>
+                        <span class="d-none d-xl-block">Profile</span>
+                    </div>
                 
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="hstack gap-2">
+                        <i class="fa fa-bars"></i>
+                        <span class="d-none d-xl-block">More</span>
+                    </div>
+                </a>
+
 
             </div>
 
-            
+            <button class="btn btn-primary rounded-pill mx-auto col-12">
+                Tweet
+            </button>
 
         </div>
 
-        <!-- hyper links -->
-        <div class="wd-grid-row wd-link-text">
+        <!-- MIDDLE CONTENT -->
+        <div class="col-12 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6">
 
-            <div class="wd-link-padding wd-float-left wd-selected-link border-blue">
-                For you
+            <!-- SEARCH BAR -->
+            <div class="hstack gap-4">
+                <input type="text" class="form-control" id="input1" placeholder="Search">
+                <i class="fa fa-cog fa-2x text-primary bg-body-tertiary border"></i>
             </div>
 
-            <div class="wd-link-padding wd-float-left">
-                Trending
+            <!-- TABS -->
+            <div>
+
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">For You</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Entertainment</a>
+                    </li>
+                </ul>
             </div>
 
-            <div class="wd-link-padding wd-float-left">
-                Covid-19
-            </div>
-
-            <div class="wd-link-padding wd-float-left">
-                News 
-            </div>
-
-            <div class="wd-link-padding wd-float-left">
-                Sports 
-            </div>
-
-        </div>
-
-        <!-- suggest post-->
-        <div class="wd-grid-row">
-            <div class="wd-grid-col-80-perc wd-medium-gray-text">
-                <p class="wd-info-text">
-                    Trendning in Science
-                </p>
-                <p class="wd-tuit-name">
-                    Starship
-                </p>
-                <p class="wd-info-text">
-                    55.5K Tuits
-                </p>
-            </div>
-            <!-- right column -->
-            <div class="wd-grid-col-20-perc">
-                <div class="wd-top-corner">
-                    
-                        <img width="24px"src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-13-512.png">                    
+            <!-- TUITS -->
+            <div>
+                <!-- Big image -->
+                <div>
+                    <img width="100%" src="../../images/starship.jpeg">
                 </div>
+                <ul class="list-group">
+                    <li class="list-group-item">
+
+                        <div class="hstack gap-4">
+                            <div>
+                                Web Development </br>
+                                <b>ReactJS</b> <i class="fa fa-check-circle" aria-hidden="true"></i> - 2h </br>
+                                React is a component based front end library that makes it easy to build Single Page
+                                Applicaitons or SPAs.
+                            </div>
+
+
+                            <img class="bg-body-tertiary border ms-auto rounded"
+                                src="https://res.cloudinary.com/practicaldev/image/fetch/s--qo_Wp38Z--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/e0nl7ziy1la7bpwj7rsp.png"
+                                height="64px" width="64px">
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+
+                        <div class="hstack gap-4">
+                            <div>
+
+                                <b>JavaScript</b> <i class="fa fa-check-circle" aria-hidden="true"></i> - 2h </br>
+                                JavaScript is a language that can run on browsers as well as desktops. </br>
+
+                                123K Tuits
+                            </div>
+
+
+                            <img class="bg-body-tertiary border ms-auto rounded"
+                                src="https://logos-download.com/wp-content/uploads/2019/01/JavaScript_Logo.png"
+                                height="64px" width="64px">
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+
+                        <div class="hstack gap-4">
+                            <div>
+                                Web Development </br>
+
+                                <b>JQuery</b> </br>
+
+                                123K Tuits
+                            </div>
+
+
+                            <img class="bg-body-tertiary border ms-auto rounded"
+                                src="https://pluspng.com/img-png/jquery-logo-png-jquery-logo-png-transparent-background-png-img-transparent-860x868.png"
+                                height="64px" width="64px">
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+
+                        <div class="hstack gap-4">
+                            <div>
+                                Web Development </br>
+
+                                <b>NodeJS</b> <i class="fa fa-check-circle" aria-hidden="true"></i></br>
+
+                                123K Tuits
+                            </div>
+
+
+                            <img class="bg-body-tertiary border ms-auto rounded"
+                                src="https://1.bp.blogspot.com/-sqAjIvOtpXI/XYoCmqOyMwI/AAAAAAAAJig/CowR8wgEauEs-RXN2IPmLYkC7NHoHuA3gCLcBGAsYHQ/s1600/node-js-logo.png"
+                                height="64px" width="64px">
+                        </div>
+                    </li>
+
+                </ul>
+
+
+
             </div>
+
+
+
         </div>
 
-        <!-- suggest post-->
-        <div class="wd-grid-row">
-            <div class="wd-grid-col-80-perc wd-medium-gray-text">
-                <p class="wd-info-text">
-                    Sports • Trending
-                </p>
-                <p class="wd-tuit-name">
-                    Joe Rogan
-                </p>
-                <p class="wd-info-text">
-                    5,218 Tuits
-                </p>
-            </div>
-            <!-- right column -->
-            <div class="wd-grid-col-20-perc">
-                <div class="wd-top-corner">
-                    
-                        <img width="24px"src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-13-512.png">                    
-                </div>
-            </div>
-        </div>
+        <!-- RIGHT SIDE BAR -->
+        <div class="col-12 d-none d-lg-block col-lg-4 col-xl-4 col-xxl-4">
+            <ul class="list-group">
+                <li class="list-group-item"><b>Who to follow</b></li>
+                <li class="list-group-item">
+                    <div class="hstack gap-4">
+                        <img class="rounded-circle"
+                            src="https://www.pngitem.com/pimgs/m/174-1746846_java-logo-hd-png-download.png"
+                            height="32px">
+                        <div>
+                            Java <i class="fa fa-check-circle" aria-hidden="true"></i> </br>
+                            @Java
+                        </div>
 
-        <!-- new york times post -->
-        <div class="wd-grid-row ">
-            <div class="wd-grid-col-80-perc wd-medium-gray-text">
-                <p class="wd-info-text">
-                    <img class="wd-mini-account-profile-pic"  src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1491958734/bqp32una36b06hmbulla.png"> 
+                        <button class="btn btn-primary rounded-pill bg-body-tertiary border ms-auto">
+                            Follow
+                        </button>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="hstack gap-4">
+                        <img class="rounded-circle"
+                            src="https://3dprint.com/wp-content/uploads/2019/05/Relativity-logo.png" height="32px">
+                        <div>
+                            Relativety Space <i class="fa fa-check-circle" aria-hidden="true"></i> </br>
+                            @relativetyspace
+                        </div>
 
-                    <span class="wd-account-name">
-                        The New York Times
-                    </span> 
+                        <button class="btn btn-primary rounded-pill bg-body-tertiary border ms-auto">
+                            Follow
+                        </button>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="hstack gap-4">
+                        <img class="rounded-circle"
+                            src="https://tse3.mm.bing.net/th?id=OIP.wVJpC6gvhfbRl4V5RNuFLgHaHa&pid=Api" height="32px">
+                        <div>
+                            Virgin Galactic <i class="fa fa-check-circle" aria-hidden="true"></i> </br>
+                            @virgingalactic
+                        </div>
 
-                    <img class="wd-mini-account-profile-pic"  src="https://webstockreview.net/images/twitter-verified-png.png"> <span class="wd-account-name"></span>
-                    
-                    • Yesterday 
-                </p>
-                <p class="wd-tuit-name">
-                    CNN Cuomo Conondrum: A star anchor with a brother in trouble
-                </p>
-            </div>
-            <!-- right column -->
-            <div class="wd-grid-col-20-perc">
-                <div class="wd-top-corner">
-                    
-                        <img class="wd-tuit-preview-image"  src="https://tse2.mm.bing.net/th?id=OIP.qWJVTdZrQdOe0_fbpQU-wQHaE8&pid=Api">                    
-                </div>
-            </div>
-        </div>
+                        <button class="btn btn-primary rounded-pill bg-body-tertiary border ms-auto">
+                            Follow
+                        </button>
+                    </div>
+                </li>
+                <li class="list-group-item ">
+                    <div class="hstack gap-4">
+                        <img class="rounded-circle" src="http://blogs.agu.org/magmacumlaude/files/2011/01/nasa-logo.jpg"
+                            height="32px">
+                        <div>
+                            NASA <i class="fa fa-check-circle" aria-hidden="true"></i> </br>
+                            @nasa
+                        </div>
 
-        <!-- new york times post -->
-        <div class="wd-grid-row ">
-            <div class="wd-grid-col-80-perc wd-medium-gray-text">
-                <p class="wd-info-text">
-                    COVID-19 • LIVE 
-                </p>
-                <p class="wd-tuit-name">
-                    Covid-19: News and Updates for Massachusettes
-                </p>
-                
-            </div>
-            <!-- right column -->
-            <div class="wd-grid-col-20-perc">
-                <div class="wd-top-corner">
-                    
-                        <img class="wd-tuit-preview-image"  src="https://tse3.mm.bing.net/th?id=OIP.3hCpZMLkgVRdD7yUwZQozgHaHY&pid=Api">                    
-                </div>
-            </div>
-        </div>
+                        <button class="btn btn-primary rounded-pill bg-body-tertiary border ms-auto">
+                            Follow
+                        </button>
+                    </div>
+                </li>
+                <li class="list-group-item ">
+                    <div class="hstack gap-4">
+                        <img class="rounded-circle"
+                            src="https://external-preview.redd.it/1hECaRwLWJOGUaHpGy6j2ZTKJc10LgwGs9zJzlSsVDI.jpg?auto=webp&s=2763448534718ec373247270550baf85a937bb24"
+                            height="32px">
+                        <div>
+                            Tesla <i class="fa fa-check-circle" aria-hidden="true"></i> </br>
+                            @tesla
+                        </div>
 
-        <!-- new york times post -->
-        <div class="wd-grid-row ">
-            <div class="wd-grid-col-80-perc wd-medium-gray-text">
-                <p class="wd-info-text">
-                    Something
-                </p>
-                <p class="wd-tuit-name">
-                    Lorem Ipsum
-                </p>
-                
-            </div>
-            <!-- right column -->
-            <div class="wd-grid-col-20-perc">
-                <div class="wd-top-corner">
-                    
-                        <img class="wd-tuit-preview-image"  src="http://fullhdwall.com/wp-content/uploads/2020/01/Beautiful-Sunflower.jpg">                    
-                </div>
-            </div>
-        </div>
+                        <button class="btn btn-primary rounded-pill bg-body-tertiary border ms-auto">
+                            Follow
+                        </button>
+                    </div>
+                </li>
+            </ul>
 
-        <!-- new york times post -->
-        <div class="wd-grid-row ">
-            <div class="wd-grid-col-80-perc wd-medium-gray-text">
-                <p class="wd-info-text">
-                    <img class="wd-mini-account-profile-pic"  src="https://cdn.ilsr.org/wp-content/uploads/2016/09/Bloomberg-Business-logo.png"> 
-
-                    <span class="wd-account-name">
-                        Bloomberg Opinon
-                    </span> 
-
-                    <img class="wd-mini-account-profile-pic"  src="https://webstockreview.net/images/twitter-verified-png.png"> <span class="wd-account-name"></span>
-                    
-                    • Yesterday 
-                </p>
-                <p class="wd-tuit-name">
-                    Thinking about getting a booster? Read this first
-                </p>
-                
-            </div>
-            <!-- right column -->
-            <div class="wd-grid-col-20-perc">
-                <div class="wd-top-corner">
-                    
-                        <img class="wd-tuit-preview-image"  src="https://tse4.mm.bing.net/th?id=OIP.iDmXBrSlH4noq216gbcmoQHaHa&pid=Api">                    
-                </div>
-            </div>
-        </div>
-
-        <!-- suggest post-->
-        <div class="wd-grid-row">
-            <div class="wd-grid-col-80-perc wd-medium-gray-text">
-                <p class="wd-info-text">
-                    Trending in United States
-                </p>
-                <p class="wd-tuit-name">
-                    Wonder Bread
-                </p>
-                <p class="wd-info-text">
-                    1,259 Tuits
-                </p>
-            </div>
-            <!-- right column -->
-            <div class="wd-grid-col-20-perc">
-                <div class="wd-top-corner">
-                    
-                        <img width="24px"src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-13-512.png">                    
-                </div>
-            </div>
         </div>
 
     </div>
+
 
 </body>
 
