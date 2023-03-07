@@ -4,7 +4,7 @@ import posts from './posts.js';
 const PostSummaryList = () => {
     return (`
         <ul class="list-group mt-3">
-            ${posts.map (post => {
+            ${posts.map(post => {
                 return (PostSummaryItem(post));
             }).join('')
         }

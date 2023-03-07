@@ -21,7 +21,7 @@ const PostSummaryItem = (
                         }</div>
                 </div>
                 <div className="col-2">
-                    <img width={
+                    <img alt="something" width={
                         70
                     } className="float-end rounded-3" src={`/images/${post.image
                         }`
